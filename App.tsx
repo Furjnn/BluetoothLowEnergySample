@@ -45,7 +45,7 @@ const App = () => {
         {connectedDevice ? (
           <>
             <PulseIndicator />
-            <Text style={styles.heartRateTitleText}>Your Heart Rate Is</Text>
+            <Text style={styles.heartRateTitleText}>Your Heart Rate Is:</Text>
             <Text style={styles.heartRateText}>{heartRate} bpm</Text>
           </>
         ) : (
